@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roamly | Travel Packages</title>
+    <link rel="stylesheet" href="packages.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-name">
+                <strong>Roamly</strong>
+                <small>Explore More · Worry Less</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="#" class="active">Packages</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="packages.html" class="book-btn">Book a Trip →</a>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e" alt="Santorini Greece">
+
+        <div class="hero-content">
+            <p class="hero-label">TRAVEL PACKAGES</p>
+
+            <h1>
+                Handpicked Travel<br>
+                Packages <span>for You</span>
+            </h1>
+
+            <p class="hero-description">
+                Explore our carefully curated travel packages designed
+                to give you the best experiences, comfort and value.
+            </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MAIN PACKAGE AREA -->
+    <main class="package-main">
+
+        <!-- FILTER SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="filter-box">
+                <h3>♢ &nbsp; Filters</h3>
+
+                <label class="filter-label" for="destination">
+                    Destination
+                </label>
+
+                <select id="destination">
+                    <option>All Destinations</option>
+                    <option>Maldives</option>
+                    <option>Greece</option>
+                    <option>Switzerland</option>
+                    <option>France</option>
+                    <option>Indonesia</option>
+                    <option>UAE</option>
+                </select>
+
+                <h4>Trip Type</h4>
+
+                <label class="check-label">
+                    <input type="checkbox"> Family Trip
+                </label>
+
+                <label class="check-label">
+                    <input type="checkbox"> Couple Trip
+                </label>
+
+                <label class="check-label">
+                    <input type="checkbox"> Solo Trip
+                </label>
+
+                <label class="check-label">
+                    <input type="checkbox"> Group Trip
+                </label>
+
+                <h4>Duration</h4>
+
+                <label class="check-label">
+                    <input type="checkbox"> 1 – 3 Days
+                </label>
+
+                <label class="check-label">
+                    <input type="checkbox"> 4 – 7 Days
+                </label>
+
+                <label class="check-label">
+                    <input type="checkbox"> 8 – 14 Days
+                </label>
+
+                <label class="check-label">
+                    <input type="checkbox"> 15+ Days
+                </label>
+
+                <h4>Price Range</h4>
+
+                <div class="price-range">
+                    <input type="range" min="500" max="5000" value="2500">
+                    <p>$500 – $5,000</p>
+                </div>
+
+                <button class="apply-btn">Apply Filters</button>
+            </div>
+
+
+            <!-- CUSTOM TRIP CARD -->
+            <div class="custom-trip">
+                <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" alt="Tropical beach">
+
+                <div class="custom-trip-content">
+                    <h3>Need a Custom Trip?</h3>
+
+                    <p>
+                        Tell us your dream destination and we'll create
+                        a personalized package just for you!
+                    </p>
+
+                    <a href="#" class="gold-btn">Contact Us →</a>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <!-- PACKAGES CONTENT -->
+        <section class="packages-content">
+
+            <div class="packages-heading">
+
+                <div>
+                    <p class="small-label">FEATURED PACKAGES</p>
+                    <h2>Popular Travel Packages</h2>
+
+                    <p class="heading-description">
+                        From tropical beaches to mountain adventures,
+                        find the perfect package for your next journey.
+                    </p>
+                </div>
+
+                <div class="package-controls">
+                    <label>
+                        Sort by:
+                        <select>
+                            <option>Most Popular</option>
+                            <option>Lowest Price</option>
+                            <option>Highest Price</option>
+                        </select>
+                    </label>
+                </div>
+
+            </div>
+
+
+            <!-- PACKAGE CARDS -->
+            <div class="package-grid">
+
+                <!-- CARD 1 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8" alt="Maldives">
+                        <span class="tag">Best Seller</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Maldives Paradise</h3>
+                        <p class="location"> Maldives</p>
+
+                        <div class="package-meta">
+                            <span> 5 Days / 4 Nights</span>
+                            <span> Couple / Family</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.9 (1.2k reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$1,899</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 2 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e" alt="Santorini">
+                        <span class="tag">Trending</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Santorini Getaway</h3>
+                        <p class="location">Greece</p>
+
+                        <div class="package-meta">
+                            <span> 6 Days / 5 Nights</span>
+                            <span>Couple / Family</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.8 (880 reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$1,299</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 3 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7" alt="Switzerland">
+                        <span class="tag">Popular</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Switzerland Adventure</h3>
+                        <p class="location"> Switzerland</p>
+
+                        <div class="package-meta">
+                            <span> 7 Days / 6 Nights</span>
+                            <span> Family / Group</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.7 (850 reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$1,699</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 4 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="Paris">
+                        <span class="tag">Luxury</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Paris City Break</h3>
+                        <p class="location">France</p>
+
+                        <div class="package-meta">
+                            <span> 4 Days / 3 Nights</span>
+                            <span> Couple / Solo</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.6 (720 reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$1,499</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 5 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" alt="Bali">
+                        <span class="tag">Special Offer</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Bali Explorer</h3>
+                        <p class="location">Indonesia</p>
+
+                        <div class="package-meta">
+                            <span> 6 Days / 5 Nights</span>
+                            <span> Couple / Family</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.8 (1.1k reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$999</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 6 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390" alt="Dubai">
+                        <span class="tag">Hot Deal</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Dubai Luxury</h3>
+                        <p class="location"> UAE</p>
+
+                        <div class="package-meta">
+                            <span> 5 Days / 4 Nights</span>
+                            <span> Family / Group</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.7 (960 reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$1,399</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 7 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Thailand">
+                        <span class="tag">Family Favorite</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Thailand Escape</h3>
+                        <p class="location"> Thailand</p>
+
+                        <div class="package-meta">
+                            <span> 7 Days / 6 Nights</span>
+                            <span> Family</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.6 (680 reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$1,099</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 8 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7" alt="Italy">
+                        <span class="tag">Romantic</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>Italy Classics</h3>
+                        <p class="location"> Italy</p>
+
+                        <div class="package-meta">
+                            <span>8 Days / 7 Nights</span>
+                            <span> Couple</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.9 (1.4k reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$1,799</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- CARD 9 -->
+                <article class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b" alt="New Zealand">
+                        <span class="tag">Adventure</span>
+                    </div>
+
+                    <div class="package-info">
+                        <h3>New Zealand Explorer</h3>
+                        <p class="location">New Zealand</p>
+
+                        <div class="package-meta">
+                            <span> 10 Days / 9 Nights</span>
+                            <span> Group</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>★★★</span>
+                            <small>4.8 (790 reviews)</small>
+                        </div>
+
+                        <div class="package-bottom">
+                            <p><strong>$2,299</strong> / person</p>
+                            <a href="#">View Details →</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- NEWSLETTER CTA -->
+    <section class="newsletter-cta">
+
+        <div class="newsletter-text">
+            <p class="small-label">READY FOR YOUR NEXT ADVENTURE?</p>
+            <h2>Let's Plan Your Dream Trip</h2>
+            <p>
+                Get exclusive offers, travel tips and inspiration
+                straight to your inbox.
+            </p>
+        </div>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit">Subscribe</button>
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <a href="#" class="logo">
+                <span class="logo-name">
+                    <strong>Roamly</strong>
+                    <small>Explore More · Worry Less</small>
+                </span>
+            </a>
+
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="destination.html">Destinations</a>
+                <a href="#">Packages</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="social-links">
+                <span>Follow Us</span>
+                <a href="https://facebook.com/roamly" target="_blank">f</a>
+                <a href="https://twitter.com" target="_blank">◎</a>
+                <a href="https://instagram.com" target="_blank">▶</a>
+                <a href="https://linkedin.com" target="_blank">X</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>2026 Roamly. All rights reserved.</p>
+
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

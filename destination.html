@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roamly | Destinations</title>
+    <link rel="stylesheet" href="destination.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            <span class="logo-text">
+                <strong>Roamly</strong>
+                <small>Explore More · Worry Less</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#" class="active">Destinations</a>
+            <a href="packages.html">Packages</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="packages.html" class="book-btn">Book a Trip →</a>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e" alt="Santorini Greece">
+
+        <div class="hero-text">
+            <p class="hero-small">EXPLORE THE WORLD</p>
+
+            <h1>
+                Discover Amazing
+                <span>Destinations</span>
+            </h1>
+
+            <p>
+                From breathtaking beaches to majestic mountains,
+                find the perfect destination for your next journey.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- DESTINATIONS MAIN SECTION -->
+    <section class="destinations">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="filter-box">
+
+                <h3>Top Destinations</h3>
+
+                <a href="#" class="filter-link active">
+                    <span> All Destinations</span>
+                    <span>24</span>
+                </a>
+
+                <a href="#" class="filter-link">
+                    <span> Beach</span>
+                    <span>8</span>
+                </a>
+
+                <a href="#" class="filter-link">
+                    <span> Mountain</span>
+                    <span>6</span>
+                </a>
+
+                <a href="#" class="filter-link">
+                    <span> City</span>
+                    <span>5</span>
+                </a>
+
+                <a href="#" class="filter-link">
+                    <span> Culture</span>
+                    <span>3</span>
+                </a>
+
+                <a href="#" class="filter-link">
+                    <span> Adventure</span>
+                    <span>2</span>
+                </a>
+
+            </div>
+
+
+            <!-- FILTER BY -->
+            <div class="filter-box">
+
+                <h3>Filter By</h3>
+
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+
+                    <input type="range" min="500" max="5000" value="5000" class="price-range">
+
+                    <p>$500 – $5,000</p>
+                </div>
+
+
+                <div class="filter-group">
+                    <h4>Trip Type</h4>
+
+                    <label>
+                        <input type="checkbox">
+                        Family Trip
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Couple Trip
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Solo Trip
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Group Trip
+                    </label>
+                </div>
+
+
+                <div class="filter-group">
+                    <h4>Duration</h4>
+
+                    <label>
+                        <input type="checkbox">
+                        1 – 3 Days
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        4 – 7 Days
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        8 – 14 Days
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        15+ Days
+                    </label>
+                </div>
+
+
+                <!-- SPECIAL OFFER -->
+                <div class="special-offer">
+
+                    <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" alt="Tropical beach">
+
+                    <div class="offer-content">
+                        <p>Special Offers</p>
+                        <h3>Up to 40% Off</h3>
+                        <small>
+                            Limited time deals on selected destinations.
+                        </small>
+
+                        <a href="#">View Deals →</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- DESTINATIONS CONTENT -->
+        <main class="destination-content">
+
+            <div class="content-heading">
+
+                <div>
+                    <p class="small-title">OUR TOP DESTINATIONS</p>
+                    <h2>Popular Destinations</h2>
+                </div>
+
+                <div class="sort-area">
+                    <label for="sort">Sort by:</label>
+
+                    <select id="sort">
+                        <option>Most Popular</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Top Rated</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <!-- DESTINATION CARDS -->
+            <div class="places-container">
+
+
+                <!-- SANTORINI -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e" alt="Santorini">
+
+                        <span class="badge">Best Seller</span>
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3>Santorini</h3>
+                        <p class="country">Greece</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.9 (2.8k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            White buildings, blue domes and stunning
+                            sunsets make Santorini a dream destination.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,299</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BALI -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4" alt="Bali">
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> Bali</h3>
+                        <p class="country">Indonesia</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.8 (2.1k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            Tropical beaches, lush jungles and a rich
+                            culture await you in Bali.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$999</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PARIS -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="Paris">
+
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> Paris</h3>
+                        <p class="country">France</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.9 (3.2k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            Experience the charm of the City of Lights
+                            with its art, cuisine and history.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,499</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SWITZERLAND -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7" alt="Switzerland">
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> Switzerland</h3>
+                        <p class="country">Europe</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.8 (1.9k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            Snow-capped mountains, crystal lakes and
+                            unforgettable views.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,699</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MALDIVES -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8" alt="Maldives">
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> Maldives</h3>
+                        <p class="country">Indian Ocean</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.9 (2.4k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            Crystal clear waters, white sand beaches
+                            and luxury resorts.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,899</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEW YORK -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjpgXUSr2yVdEHSJLoSwqgHcX4HA_miSfKvmR70etLZPN4jGdApMluZwt&s=10"
+                            alt="New York">
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> New York</h3>
+                        <p class="country">USA</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.7 (2.6k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            The city that never sleeps, full of energy,
+                            lights and endless possibilities.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,399</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TOKYO -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e" alt="Tokyo">
+
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> Tokyo</h3>
+                        <p class="country">Japan</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.8 (1.8k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            A perfect blend of tradition and modernity
+                            in the heart of Japan.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,599</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAPE TOWN -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1580060839134-75a5edca2e99" alt="Cape Town">
+
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> Cape Town</h3>
+                        <p class="country">South Africa</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.8 (1.5k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            Stunning landscapes, wildlife and adventure
+                            in one place.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,299</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DUBAI -->
+                <article class="place-card">
+
+                    <div class="place-image">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c" alt="Dubai">
+
+                    </div>
+
+                    <div class="place-info">
+
+                        <h3> Dubai</h3>
+                        <p class="country">UAE</p>
+
+                        <p class="rating">
+                            ★★★★★ <span>4.7 (2.2k reviews)</span>
+                        </p>
+
+                        <p class="description">
+                            Modern architecture, luxury shopping
+                            and desert adventures.
+                        </p>
+
+                        <div class="place-bottom">
+                            <p>From <strong>$1,199</strong> / person</p>
+                            <a href="#">→</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </main>
+
+    </section>
+
+
+       <!-- NEWSLETTER BANNER -->
+    <section class="newsletter-banner">
+
+        <div class="newsletter-title">
+            <p>TRAVEL MORE</p>
+            <h2>
+                Your Next Adventure<br>
+                Is Just a Click Away
+            </h2>
+        </div>
+
+        <div class="newsletter-description">
+            <p>
+                Subscribe to our newsletter and get the latest
+                travel deals, destination guides and inspiration
+                delivered straight to your inbox.
+            </p>
+        </div>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address">
+
+            <button type="submit">Subscribe</button>
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <a href="#" class="logo">
+
+                <span class="logo-text">
+                    <strong>Roamly</strong>
+                    <small>Explore More · Worry Less</small>
+                </span>
+            </a>
+
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="destination.html">Destinations</a>
+                <a href="packages.html">Packages</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="footer-social">
+                <span>Follow Us</span>
+                <a href="https://facebook.com">f</a>
+                <a href="https://twitter.com">◎</a>
+                <a href="https://instagram.com">▶</a>
+                <a href="https://linkedin.com">X</a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>2026 Roamly. All rights reserved.</p>
+
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">FAQ</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
